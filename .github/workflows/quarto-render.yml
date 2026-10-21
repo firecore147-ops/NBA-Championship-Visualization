@@ -22,11 +22,13 @@ jobs:
       - name: Install Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
+     
       - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
           pip install pandas matplotlib ipython jinja2 \
-            nbformat nbclient ipykernel
+            nbformat nbclient ipykernel pyyaml
+
 
       - name: Render with Quarto
         run: |
