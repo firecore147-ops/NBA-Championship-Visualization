@@ -1,0 +1,6 @@
+Quarto render status: NOT COMPLETED / NOT VERIFIED.
+The notebook is executed, and charts are present. The existing .html file is a Jupyter preview, not Quarto-rendered.
+Workflow prepared: .github/workflows/quarto-render.yml
+GitHub repository: https://github.com/firecore147-ops/NBA-Championship-Visualization
+Attempted GitHub create_file call was rejected with HTTP 403: Resource not accessible by integration.
+Once repository write permissions are available, upload the folder preserving .github/workflows/quarto-render.yml and allow the workflow to run. Download the artifact from a successful GitHub Actions run.
